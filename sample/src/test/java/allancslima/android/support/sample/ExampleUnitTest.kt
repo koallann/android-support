@@ -1,4 +1,4 @@
-package allancslima.androidsupport
+package allancslima.android.support.sample
 
 import org.junit.Test
 
