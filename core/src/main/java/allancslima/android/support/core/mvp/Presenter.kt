@@ -14,6 +14,10 @@ abstract class Presenter<View>(viewClass: Class<View>) {
         }
     }
 
+    fun start() { }
+
+    fun stop() { }
+
     fun attachView(view: View) {
         viewReference = WeakReference(view)
     }
