@@ -30,7 +30,6 @@ abstract class BaseActivity : AppCompatActivity(), BaseView {
     override fun setContentView(view: View) {
         contentView = view
         rootView.addView(contentView)
-        dismissLoading()
     }
 
     override fun showLoading() {
